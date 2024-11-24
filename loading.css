@@ -1,11 +1,16 @@
+
 body {
   background:#f5f2f2;
 }
 
 #port {
   display: none;
-
+  opacity: 0;
+  transition: opacity 1s ease-in;
 }
+
+
+
 
 #load {
   position:absolute;
@@ -20,6 +25,7 @@ body {
   -ms-user-select:none;
   user-select:none;
   cursor:default;
+
 }
 
 #load div {

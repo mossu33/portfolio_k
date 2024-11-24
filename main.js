@@ -7,6 +7,17 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 2000);
 });
 
+
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    const port = document.getElementById("port");
+    port.style.display = "block";
+    setTimeout(() => {
+      port.style.opacity = "1";
+    }, 50);
+  }, 2000);
+});
+
 const boxes = document.querySelectorAll('.box');
 
 
